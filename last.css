@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+legend{
+    color: tomato;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0% 0%;
+    
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50% ) , url(https://static.wixstatic.com/media/1e7b2e_8408200224c1449fbecca507f7f933df~mv2.jpg/v1/fill/w_640,h_802,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1e7b2e_8408200224c1449fbecca507f7f933df~mv2.jpg)  ;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+    padding: 0% 0%;
+    margin: 0%;
+    }   
+    
+
+.main{
+   
+    }
+    
+    .navbar{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.4rem 2rem;
+        
+    }
+    
+    
+    
+    .logo{
+        color: beige;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+     .menu{
+     text-align: right;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     padding-right: 0px;
+    }
+    
+    .search{
+        width: 330px;
+        float: right;
+        padding-left: 30%;
+        text-align: right;
+    }
+    
+    
+    ul{
+       
+        float: right;
+        display:flex;
+        justify-content: center;
+        align-items: center ;
+        text-align: right;
+        padding-left: 280%;
+    }
+    
+    ul li{
+    
+    
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+        
+    }
+    
+    ul li a:hover{
+        color: tomato;
+        font-size: 20px;
+    }
+.nour{
+    width: 50%;
+    border: 2px solid white;
+    text-align: center ;
+    margin: 0% 0%;
+    padding: 0% 0%;
+    margin-top: 2%;
+}
+.mark2{
+    color: beige;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    text-align: left;
+}
+pre::first-line{
+    color: #4545bd;
+}
+.img{
+display: inline;
+text-align: right;
+margin: 0; 
+padding-left: 20%;
+}
+.mark3{
+    padding: 0% 0%;
+    margin: 0% 0%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img1{
+    padding: 0% 0%;
+    margin: 0% 0%;
+    text-align: left;
+   }
+.text1{
+    text-align: left;
+    color: aliceblue;
+    justify-content: center;  
+    display: flex;
+    padding: 0% 0%;
+    margin: 0% 0%;
+    padding-left: 1%;
+    font-size: 25px;
+
+}
+.link{
+    font-size: 20px;
+    color: #4545bd; 
+}
+.mark4{
+    padding: 0% 0%;
+    margin: 0% 0%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text2{
+    text-align: left;
+    color: aliceblue;
+    justify-content: center;  
+    display: flex;
+    padding: 0% 0%;
+    margin: 0% 0%;
+    padding-left: 1%;
+    font-size: 25px;
+
+}
+.link1{
+    font-size: 25px;
+    display: flex;
+    color: blue;
+}
+.mark5{
+    padding: 0% 0%;
+    margin: 0% 0%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text3{
+    text-align: left;
+    color: aliceblue;
+    justify-content: center;  
+    
+    padding: 0% 0%;
+    margin: 0% 0%;
+    padding-left: 1%;
+    font-size: 25px;
+
+}
+.img4{
+    display: flex;
+    padding-left: 5%;
+}
+.mark6{
+    padding: 0% 0%;
+    margin: 0% 0%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text4{
+    text-align: left;
+    color: aliceblue;
+    justify-content: center;  
+    
+    padding: 0% 0%;
+    margin: 0% 0%;
+    padding-left: 1%;
+    font-size: 25px;
+
+}
+.img5{
+    display: flex;
+    padding-left: 0.3%;
+}
+fieldset{
+    margin-bottom: 4%;
+}

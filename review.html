@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Realtors</title>
+    <link rel="stylesheet" href="review.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+</head>
+<body>
+    <div class="main" >
+        <div class="navbar">
+            <h1 class="logo">  The Realtors </h1>
+            <div class="search" >
+                <div class="menu"> 
+                    <ul>
+                        <li> <a href="project.html">HOME </a> </li>
+                        <li> <a href="About.html"> ABOUT </a> </li>
+                        <li> <a  href="contact.html">CONTACT </a> </li>
+                        <li> <a class="re" href="review.html">REVIEW</a> </li>
+                    </ul>    
+                </div>                       
+            </div>
+        </div>
+        <div>
+            <h1 class="ad" >Add Your Review</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                    <br>
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="5">5 stars</option>
+                    <option value="4">4 stars</option>
+                    <option value="3">3 stars</option>
+                    <option value="2">2 stars</option>
+                    <option value="1">1 star</option>
+                </select>
+                    <br>
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" required></textarea>
+                <br>
+                <input type="submit" value="Add Review">
+            </form>
+            <h2>Reviews</h2>
+            <ul id="reviews-list"></ul>
+        </div>
+        
+    
+    
+    </div>
+
+
+
+</body>
+</html>

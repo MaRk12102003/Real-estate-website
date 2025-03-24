@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Realtors</title>
+    <link rel="stylesheet" href="project.css"> 
+    <meta name="view port" content="width = device - width , intial-scole=1.0 "  >
+</head>
+<body>
+    <div class="main" >
+        <div class="navbar">
+                <div class="icon">
+                   <h1 class="logo">  The Realtors </h1>
+                   <pre  class="mark" > <h2> 
+<h1>  A smart home</h1> refers to a convenient home setup where appliances and
+devices can be automatically controlled remotely from anywhere with
+an internet connection using a mobile or other networked device.
+Devices in a smart home are interconnected through the internet,
+allowing the user to control functions such as security access to the home,
+temperature, lighting, and a home theater remotely. </h2></pre>                                  
+ </div>
+                
+                <div class="menu"> 
+                <ul>
+                    <li> <a href="#">HOME </a> </li>
+                    <li> <a href="#"> ABOUT </a> </li>
+                    <li> <a href="#">CONTACT </a> </li>
+                    <li> <a href="#">REVIEW</a> </li>
+                </ul>    
+                </div>
+                    <div class="search" >
+                    <input class="name" type="name" placeholder="Enter your name">
+                    <input class="email" type="email" placeholder="Enter your email " >
+                    <input class="number" type="phone" placeholder="Enter your phone number">
+                    
+                    <a href="#"> <button class="btn" >Enter </button>  
+              </a>
+
+                </div>
+        </div>
+
+
+   
+        
+   </div>
+
+
+
+
+</body>
+</html>
